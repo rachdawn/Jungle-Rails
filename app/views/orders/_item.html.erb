@@ -1,0 +1,16 @@
+<tr>
+    <td>    
+    <%= image_tag line_item.product.image.thumb.url, alt: line_item.product.name %>
+    </td>
+    <td>
+        <h4><%= line_item.product.name %></h4>
+        <p><%= line_item.product.description %></p>
+    </td>
+    <td>
+        <p><%= line_item.quantity %></p>
+    </td>
+    <td>
+        <p><%= humanized_money_with_symbol(line_item.total_price) %></p>
+    </td>
+</tr>
+
