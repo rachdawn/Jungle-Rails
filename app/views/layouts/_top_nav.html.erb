@@ -59,6 +59,9 @@
             <li><%= link_to 'Products', [:admin, :products], class: "nav-link" %></li>
           </ul>
         </li>
+        <li class="nav-item">
+          <%= link_to 'About Us', about_path, class: "nav-link" %>
+        </li>
         <li class="nav-item end-0">
           <%= link_to cart_path, class: "nav-link " do %> <%= fa_icon "shopping-cart" %>
           My Cart (<%= cart.size %>) <% end %>
