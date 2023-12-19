@@ -1,9 +1,5 @@
-<h1>Login</h1>
+require 'rails_helper'
 
-<%= form_tag '/login' do %>
-
-  Email: <%= text_field_tag :email %>
-  Password: <%= password_field_tag :password %>
-  <%= submit_tag "Submit" %>
-
-<% end %>
+RSpec.describe "sessions/new.html.erb", type: :view do
+  pending "add some examples to (or delete) #{__FILE__}"
+end
