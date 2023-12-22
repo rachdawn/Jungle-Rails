@@ -70,7 +70,7 @@
         <li class="nav-item end-0">
           <div class="nav-link">
             <% if current_user %>
-              Signed in as <%= current_user.name %> | <%= link_to "Logout", '/logout', class: "user" %>
+              Signed in as <%= current_user.first_name %> | <%= link_to "Logout", '/logout', class: "user" %>
             <% else %>
               <%= link_to 'Login', '/login', class: "user" %> | <%= link_to 'Signup', '/signup', class: "user" %>
             <% end %>
