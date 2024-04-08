@@ -1,6 +1,6 @@
 # Jungle
 
-A mini e-commerce application, modeling an online plant shop, built with Rails 6.1.
+A mini e-commerce application, modeling a boutique plant shop, built with Rails 6.1.
 
 !["Landing Page"](https://github.com/rachdawn/Jungle-Rails/blob/master/project-screenshots/JungleLandingPage.png?raw=true)
 
