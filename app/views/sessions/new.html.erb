@@ -1,13 +1,15 @@
-<h1>Login</h1>
-
-<% flash.each do |type, message| %>
-  <div class="alert alert-<%= type %>">
-    <%= message %>
-  </div>
-<% end %>
-
-<%= form_tag '/login' do %>
-  Email: <%= text_field_tag :email %>
-  Password: <%= password_field_tag :password %>
-  <%= submit_tag "Submit" %>
-<% end %>
+<section class="login">
+    <h1>Login</h1>
+    <% flash.each do |type, message| %>
+    <div class="alert alert-<%= type %>">
+        <%= message %>
+    </div>
+    <% end %>
+    <div class="login-form">
+    <%= form_tag '/login' do %>
+    Email: <%= text_field_tag :email %>
+    Password: <%= password_field_tag :password %>
+    <%= submit_tag "Submit" %>
+    <% end %>
+    </div>
+</section>
