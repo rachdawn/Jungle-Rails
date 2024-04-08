@@ -1,5 +1,7 @@
-<h1>Signup!</h1>
+<section class="signup">
+<h1>Sign Up!</h1>
 
+<div class="signup-form">
 <%= form_for :user, url: '/users' do |f| %>
 
   First Name: <%= f.text_field :first_name %>
@@ -10,3 +12,5 @@
   <%= f.submit "Submit" %>
 
 <% end %>
+</div>
+</section>
